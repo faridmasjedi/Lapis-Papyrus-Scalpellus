@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  box-sizing:border-box;
+  text-align:center;
+  border-radius: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body{
+  max-width:960px;
+  background-color: black;
+}
+
+#container1{
+  max-width:500px;
+  margin: 0 auto;
+  background-color: #ccc;
+  height:500px;
+  padding-top:20px;
+}
+
+h1{
+  padding:20px 0;
+  border:1px solid #000;
+  font-size:15px;
+  background:#ffffff;
+  width:85%;
+  margin:20px auto;
+}
+input , button {
+  font-size:12px;
+}
+input{
+  width:20%;
+  padding:2px;
+}
+#rounds{
+padding-top: 120px;
+}
+
+#player-choices, #game, #play-again{
+  display:none;
+}
+img{
+   width:70px;
+   display: block;
+   border: 1px solid #000;
+   margin: 20px;
+ }
+
+.beVisible{
+  width:30%;
+  display:inline-block;
+}
+#game{
+  vertical-align: top;
+}
+#player, #Computer{
+  display:inline-block;
+  width:45%;
+  margin-top: 90px;
+}
+
+#player img , #Computer img{
+  /* margin-top: 90px; */
+  width:140px;
+}
+p{
+  width:20%;
+  margin:0 auto;
+}
+
+h2{
+  font-size:15px;
+}
+#play-again button{
+  margin-left:129px;
+}
